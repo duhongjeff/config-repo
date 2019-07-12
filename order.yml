@@ -11,6 +11,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+  redis:
+    host: 18.217.220.214
+    port: 6379
 
 feign:
   client:
